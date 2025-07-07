@@ -9,12 +9,12 @@ let czyMoznaGrac;
 let punktyMax;
 
 const obrazki = [
-  "https://cdn.glitch.global/0994abc0-5bb3-4035-a04a-6a966b4aef9e/8fbc579f-3346-47a0-abbc-945a83abb962_kosc-1.png?v=1746542924074",
-  "https://cdn.glitch.global/0994abc0-5bb3-4035-a04a-6a966b4aef9e/8fbc579f-3346-47a0-abbc-945a83abb962_kosc-2.png?v=1746542918187",
-  "https://cdn.glitch.global/0994abc0-5bb3-4035-a04a-6a966b4aef9e/8fbc579f-3346-47a0-abbc-945a83abb962_kosc-3.png?v=1746542912661",
-  "https://cdn.glitch.global/0994abc0-5bb3-4035-a04a-6a966b4aef9e/8fbc579f-3346-47a0-abbc-945a83abb962_kosc-4.png?v=1746542907214",
-  "https://cdn.glitch.global/0994abc0-5bb3-4035-a04a-6a966b4aef9e/8fbc579f-3346-47a0-abbc-945a83abb962_kosc-5.png?v=1746542896939",
-  "https://cdn.glitch.global/0994abc0-5bb3-4035-a04a-6a966b4aef9e/8fbc579f-3346-47a0-abbc-945a83abb962_kosc-6.png?v=1746345999536"
+  "kosc-1.png",
+  "kosc-2.png",
+  "kosc-3.png",
+  "kosc-4.png",
+  "kosc-5.png",
+  "kosc-6.png"
 ];
 
 
