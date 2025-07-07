@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Hammersmith+One&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tagesschrift&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: auto;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+#webside {
+    width: 100%;
+    height: 100vh;
+    /* background-color: ; */
+}
+
+#header {
+    width: 100%;
+    display: flex;
+    height: 10vh;
+    background: #9fd4ff;
+    border-bottom: 2px solid #000000;
+}
+
+#headerH1 {
+    font-size: 70px;
+    float: left;
+    color: #000000;
+    padding: 2px;
+    margin: 1px;
+    text-align: center;
+    justify-content: center;
+    display: inline-flex;
+    font-family: "Charm, cursive";
+    font-style: normal;
+    font-weight: 400;
+}
+
+#headerH1 img {
+    height: 9vh;
+    width: auto;
+    margin: 2px;
+    border: #000000 solid 1px;
+    border-radius: 50px;
+}
+
+#mainSELECT {
+    border: 1px solid #000000;
+    border-radius: 20px;
+    width: 14vh;
+    height: 9vh;
+    float: right;
+    background-color: #859bfc;
+    font-size: 27px;
+    text-align: center;
+    margin-right: 1px;
+    padding: 2px;
+
+    appearance: none;
+}
+
+/* #mainSELECT.custom-select {
+    background-image: url('https://cdn.glitch.global/0994abc0-5bb3-4035-a04a-6a966b4aef9e/54785.png?v=1746080436439');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    padding-right: 30px;
+} */
+
+
+#mainSection {
+    width: 100%;
+    min-height: 90vh;
+    height: auto;
+    background-color: #50525c;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#mainSection a {
+    text-decoration: none;
+    height: auto;
+    width: auto;
+    color: #000000;
+    text-align: center;
+    justify-content: center;
+}
+
+#wisielec {
+    background: linear-gradient(to right bottom, #6984f2, #002aff);
+}
+
+#kosci {
+    background: linear-gradient(to right bottom, #ff7575, #fb2323);
+}
+
+#piotrus {
+    background: linear-gradient(to right bottom, #faffad, #a09303);
+}
+
+.divGames {
+    width: 400px;
+    height: 250px;
+    background-color: #0496bb;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    border: 1px solid #000000;
+    transition-duration: 1s;
+}
+
+.imgGames {
+    width: auto;
+    height: 110px;
+}
+
+.pGames {
+    font-size: 50px;
+    color: #0f1214;
+    font-family: "Charm, cursive";
+    font-style: normal;
+    font-weight: 400;
+}
+
+.divGames:hover {
+    transform: scale(1.1, 1.1);
+}

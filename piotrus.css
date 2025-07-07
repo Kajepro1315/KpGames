@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Bungee+Outline&display=swap');
+
+#menuGlowne {
+    text-decoration: none;
+    font-size: 50px;
+    color: #ff0000;
+    float: left;
+    font-family: 'Black Ops One', cursive;
+}
+
+*{
+  margin: auto;
+}
+
+body{
+  display: block;
+  background: linear-gradient(to right, #85ebff, #fb8383);
+  padding: 10px;
+  width: calc(100% - 20px);
+}
+
+#game {
+  height: 96vh;
+  width: 1700px;
+  background-color: rgba( 0, 0, 0, 0.2);
+  margin-left:auto;
+  margin-right:auto;
+  padding: 5px;
+  border-radius: 10px;
+  border: #000000 1px solid;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#Gracz-0-panel {
+  display: flex;
+  width: 100%;
+  margin-top: 10px;
+  align-self: flex-start;
+}
+
+#Gracz-0 {
+  display: flex;
+  width: auto;
+  margin-top: 10px;
+  align-self: flex-start;
+  justify-content: center;
+  column-gap: 10px;
+}
+
+#Gracz-1-panel {
+  display: flex;
+  width: 100%;
+  margin-bottom: 10px;
+  align-self: flex-end;
+}
+
+#Gracz-1 {
+  display: flex;
+  width: auto;
+  margin-bottom: 10px;
+  align-self: flex-end;
+  justify-content: center;
+  column-gap: 10px;
+}
+
+#srodek {
+  margin-top: auto;
+  margin-bottom: auto;
+  align-self: center;
+  flex-direction: column;
+}
+
+#KartOdlozone {
+  display: block;
+  float: right;
+}
+
+#odlozoneImg {
+  position: relative;
+  width: auto;
+  height: 300px;
+}
+
+#odlozoneP {
+  position: relative;
+  z-index: 1;
+  color: #a09f9f;
+  font-size: 70px;
+  transform: translate(0px, -190px);
+  text-align: center;
+}
+
+.karta-gracz-0 {
+  transition-duration: 1s;
+}
+
+.karta-gracz-0:hover {
+  transform: translateY(20px);
+}
+
+.karta-gracz-1 {
+  transition-duration: 1s;
+}
+
+.karta-gracz-1:hover {
+  transform: translateY(-20px);
+}
+
+.imgKartaGracz-1 {
+  height: auto;
+  width: 120px;
+}
+
+.imgKartaGracz-0 {
+  height: auto;
+  width: 120px;
+}
+
+#Stralka img{
+  height: auto;
+  width:  300px;
+}
+
+#Stralka {
+  align-self: start;
+  margin-right: 40px;
+  float: left;
+  background-color: transparent;
+  transition-duration: 600ms;
+}
+
+/* #Stralka:hover {
+  transform: rotate(180deg);
+} */
