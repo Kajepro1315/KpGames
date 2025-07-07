@@ -43,17 +43,17 @@ const wyrazy = [
 
 //tablica do adresów grafik
 const tabObrazki = [ // od 0 do 10
-  'https://cdn.glitch.global/0994abc0-5bb3-4035-a04a-6a966b4aef9e/252ccab9-3cec-4a04-89f5-816ee2994f79_thumbnails_0.png?v=1746345891494',
-  'https://cdn.glitch.global/0994abc0-5bb3-4035-a04a-6a966b4aef9e/252ccab9-3cec-4a04-89f5-816ee2994f79_thumbnails_1.png?v=1746345887084',
-  'https://cdn.glitch.global/0994abc0-5bb3-4035-a04a-6a966b4aef9e/252ccab9-3cec-4a04-89f5-816ee2994f79_thumbnails_2.png?v=1746347422632',
-  'https://cdn.glitch.global/0994abc0-5bb3-4035-a04a-6a966b4aef9e/252ccab9-3cec-4a04-89f5-816ee2994f79_thumbnails_3.png?v=1746347396473',
-  'https://cdn.glitch.global/0994abc0-5bb3-4035-a04a-6a966b4aef9e/252ccab9-3cec-4a04-89f5-816ee2994f79_thumbnails_4.png?v=1746347511066',
-  'https://cdn.glitch.global/0994abc0-5bb3-4035-a04a-6a966b4aef9e/252ccab9-3cec-4a04-89f5-816ee2994f79_thumbnails_5.png?v=1746347515437',
-  'https://cdn.glitch.global/0994abc0-5bb3-4035-a04a-6a966b4aef9e/252ccab9-3cec-4a04-89f5-816ee2994f79_thumbnails_6.png?v=1746347583749',
-  'https://cdn.glitch.global/0994abc0-5bb3-4035-a04a-6a966b4aef9e/252ccab9-3cec-4a04-89f5-816ee2994f79_thumbnails_7.png?v=1746347587636',
-  'https://cdn.glitch.global/0994abc0-5bb3-4035-a04a-6a966b4aef9e/252ccab9-3cec-4a04-89f5-816ee2994f79_thumbnails_8.png?v=1746347661218',
-  'https://cdn.glitch.global/0994abc0-5bb3-4035-a04a-6a966b4aef9e/252ccab9-3cec-4a04-89f5-816ee2994f79_thumbnails_9.png?v=1746347664739',
-  'https://cdn.glitch.global/0994abc0-5bb3-4035-a04a-6a966b4aef9e/252ccab9-3cec-4a04-89f5-816ee2994f79_thumbnails_10.png?v=1746347669843'
+  '_thumbnails_0.png',
+  '_thumbnails_1.png',
+  '_thumbnails_2.png',
+  '_thumbnails_3.png',
+  '_thumbnails_4.png',
+  '_thumbnails_5.png',
+  '_thumbnails_6.png',
+  '_thumbnails_7.png',
+  '_thumbnails_8.png',
+  '_thumbnails_9.png',
+  '_thumbnails_10.png'
 ];
  
 // losowy wyraz z tablicy wyrazy
